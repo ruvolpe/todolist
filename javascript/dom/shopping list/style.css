@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0;
+  background: #f44336;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 50px;
+}
+
+h1 {
+  margin: 0;
+}
+
+input{
+  margin: 0;
+  border: none;
+  padding: 10px;
+}
+
+button {
+  margin: 0;
+  border: none;
+  padding: 10px;
+}
+
+.form {
+  display:flex;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  display: flex;
+  flex-direction: row;
+  padding: 12px 8px 12px 40px;
+  width: 100%;
+  position: relative;
+  background: #EFEFEF;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.closeButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+}
+
+.endTask {
+  display: none;
+}
